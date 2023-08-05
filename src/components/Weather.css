@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px
+}
+body{
+    background-color: aqua;
+}
+.container{
+    width: 100%;
+    padding: 20px;
+    background-color: #04131e;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+
+.container .inner{
+    margin: 0px auto 0px auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    background-color: blue;
+}
+
+.container .inner .left-side{
+    width: 10%;
+    height: auto;
+    background-color: black;
+}
+
+.container .inner .data{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    background-color: aqua;
+}
+
+.container .inner .data .search input{
+    width: 95%;
+    padding: 10px 5px 10px 5px;
+    border-radius: 5px;
+}
+
+.container .inner .right-side {
+    width: 30%;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
